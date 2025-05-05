@@ -1,0 +1,43 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: gray;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.header_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.derechos{
+    background-color: gray;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.Titulo{
+    color: black;
+    margin: 0;
+    font-size: 1.8em;       
+}
+
+.Menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.Menu a{
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
